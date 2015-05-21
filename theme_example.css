@@ -19,7 +19,7 @@ body,.client a:link,.client a:visited {
 /* top bar */
 #nav {
     background-color:#333;
-	border-bottom:1px solid #000;
+    border-bottom:1px solid #000;
     box-shadow:0 1px 2px #000;
 }
 
@@ -90,7 +90,7 @@ a:link,a:visited {
     color:#00669E;
 }
 a:hover {
-	color:#0070AD;
+    color:#0070AD;
 }
 
 
@@ -119,24 +119,24 @@ button:hover {
 
 /* buttons currently active */
 .on {
-	border:1px solid #25292D;
+    border:1px solid #25292D;
     color:#DDDDDD;
     text-shadow:1px 1px 0px #;
     box-shadow:inset 0px 1px 0px 0px #;
-	background:-moz-linear-gradient( center top, #172F44 5%, # 100% );
+    background:-moz-linear-gradient( center top, #172F44 5%, # 100% );
 }
 
 /* button notification */
 .unread {
-	box-shadow:inset 0px 1px 0px 0px yellow;
-	border:1px solid #dcdcdc;
-	animation:alert 2s;
-	animation-iteration-count:infinite;
+    box-shadow:inset 0px 1px 0px 0px yellow;
+    border:1px solid #dcdcdc;
+    animation:alert 2s;
+    animation-iteration-count:infinite;
 }
 @keyframes alert {
-	0% {box-shadow:inset 0px 1px 0px 0px #ffffff; border:1px solid #dcdcdc;}
-	50% {box-shadow:inset 0px 1px 0px 0px #003144; border:1px solid #003144;}
-	100% {box-shadow:inset 0px 1px 0px 0px #ffffff; border:1px solid #dcdcdc;}
+    0% {box-shadow:inset 0px 1px 0px 0px #ffffff; border:1px solid #dcdcdc;}
+    50% {box-shadow:inset 0px 1px 0px 0px #003144; border:1px solid #003144;}
+    100% {box-shadow:inset 0px 1px 0px 0px #ffffff; border:1px solid #dcdcdc;}
 }
 
 /* pinned tabs */
