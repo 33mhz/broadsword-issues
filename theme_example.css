@@ -70,8 +70,10 @@ body,.client a:link,.client a:visited {
     border:1px solid #333;
 }
 
-/* highlight avatars of users with fewer than 100 posts */
-.new-user-avatar  { border:1px solid #00A3E4; }
+/* highlight avatars of users with fewer than 100 posts or an account less than 60 days old */
+.new-user-avatar  {
+    border:1px solid #00A3E4;
+}
 
 /* images, if they show up */
 .oembed img {
