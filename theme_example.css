@@ -1,0 +1,163 @@
+/***
+ *  Broadsword.io Theme
+ *
+ *  Name: Example
+ *  Submitted By: @33MHz
+ *
+***/
+
+/*** BASICS ***/
+
+body {
+    background-color:#222;
+}
+
+body,.client a:link,.client a:visited {
+    color:#ccc;
+}
+
+/* top bar */
+#nav {
+    background-color:#333;
+	border-bottom:1px solid #000;
+    box-shadow:0 1px 2px #000;
+}
+
+
+
+
+/*** POSTS ***/
+
+/* all */
+.post,.post-expand,.post-replace {
+    background-color:#242424;
+    box-shadow:0 3px 3px -3px #111;
+}
+
+/* new posts (temporary) */
+.post-new {
+    background-color:#003144;
+    box-shadow: 0px 5px 5px -5px #0097D8;
+}
+
+/* small box, color-coded based on what thread the post is in */
+.post-thread-box {
+    box-shadow: 1px 1px 1px 0px #222;
+    border:1px solid #222;
+}
+
+/* posts mentioning you */
+.youMentioned {
+    background-color:#33332B;
+}
+
+/* deleted posts */
+.deletedPost {
+    color:#777;
+}
+
+/* reposted posts */
+.repostedPost {
+    color:#aaa;
+}
+
+
+
+/*** POST DETAILS ***/
+
+/* avatars */
+.post-avatar,.pm-avatar,#profile img {
+    border:1px solid #333;
+}
+
+/* images, if they show up */
+.oembed img {
+    border:1px solid #333;
+    box-shadow:0 0 4px #333;
+}
+
+/* marks end of a stream (~ ~ ~ ~) */
+.thread-end {
+    color:#43494C;
+}
+
+/* identifies the "spare" tab (thread, user profile, channel, etc.) */
+h2 {
+    color:#43494C;
+}
+
+
+
+
+/*** LINKS ***/
+
+a:link,a:visited {
+    color:#00669E;
+}
+a:hover {
+	color:#0070AD;
+}
+
+
+
+
+/*** MISC ***/
+
+/* tab buttons, "Post" button, etc. */
+button {
+    box-shadow:inset 0px 1px 0px 0px #000;
+	background:-moz-linear-gradient( center top, #141414 5%, #212121 100% );
+	background-color:#141414;
+    border:1px solid #212121;
+    color:#898989;
+    text-shadow:1px 1px 0px #000;
+}
+button:hover {
+    box-shadow:inset 0px 1px 0px 0px #333;
+	color:#004DBA;
+}
+
+/* buttons currently active */
+.on {
+	border:1px solid #25292D;
+    color:#DDDDDD;
+    text-shadow:1px 1px 0px #;
+    box-shadow:inset 0px 1px 0px 0px #;
+	background:-moz-linear-gradient( center top, #172F44 5%, # 100% );
+}
+
+/* button notification */
+.unread {
+	box-shadow:inset 0px 1px 0px 0px yellow;
+	border:1px solid #dcdcdc;
+	animation:alert 2s;
+	animation-iteration-count:infinite;
+}
+@keyframes alert {
+	0% {box-shadow:inset 0px 1px 0px 0px #ffffff; border:1px solid #dcdcdc;}
+	50% {box-shadow:inset 0px 1px 0px 0px #003144; border:1px solid #003144;}
+	100% {box-shadow:inset 0px 1px 0px 0px #ffffff; border:1px solid #dcdcdc;}
+}
+
+/* pinned tabs */
+.pinned {
+    box-shadow:0 0 0 1px orange;
+}
+
+/* unread PMs and channels */
+.channel-unread {
+    background-color:#003144;
+}
+
+/* tooltip-like titles */
+[data-title]:hover:after {
+    color: #ccc;
+    background-color:#222;
+    box-shadow: 0px 0px 2px #565656;
+}
+
+/* Emoji dock */
+.dock {
+    background-color:#222;
+    border:1px solid #333;
+}
