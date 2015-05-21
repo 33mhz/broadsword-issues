@@ -81,11 +81,6 @@ body,.client a:link,.client a:visited {
     color:#43494C;
 }
 
-/* identifies the "spare" tab (thread, user profile, channel, etc.) */
-h2 {
-    color:#43494C;
-}
-
 
 
 
@@ -103,18 +98,23 @@ a:hover {
 
 /*** MISC ***/
 
+/* identifies the "spare" tab (thread, user profile, channel, etc.) */
+h2 {
+    color:#43494C;
+}
+
 /* tab buttons, "Post" button, etc. */
 button {
     box-shadow:inset 0px 1px 0px 0px #000;
-	background:-moz-linear-gradient( center top, #141414 5%, #212121 100% );
-	background-color:#141414;
+    background:-moz-linear-gradient( center top, #141414 5%, #212121 100% );
+    background-color:#141414;
     border:1px solid #212121;
     color:#898989;
     text-shadow:1px 1px 0px #000;
 }
 button:hover {
     box-shadow:inset 0px 1px 0px 0px #333;
-	color:#004DBA;
+    color:#004DBA;
 }
 
 /* buttons currently active */
