@@ -173,14 +173,15 @@ button:hover {
  Repost button:     rp
  Star button:       Un/Star
  Delete button:     x
+ Search button:     search
  TreeView:          
  Write new post:    
 
 */
-.icon-Star,.icon-Unstar,.icon-rp-box {
+.icon-Star,.icon-Unstar,.icon-rp-box,.icon-search-circle {
     stroke:#00669E;
 }
-.icon-Unstar,.icon-rp-arrow,.icon-re,.icon-x-circle {
+.icon-Unstar,.icon-rp-arrow,.icon-re,.icon-x-circle,.icon-search {
     fill:#00669E;
 }
 
