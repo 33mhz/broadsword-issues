@@ -16,7 +16,7 @@ body,.client a:link,.client a:visited {
 }
 
 /* top bar */
-#nav {
+#nav,#access-bar {
     background-color:#333;
     border-bottom:1px solid #000;
     box-shadow:0 1px 2px #000;
