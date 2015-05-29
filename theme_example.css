@@ -85,6 +85,11 @@ body,.client a:link,.client a:visited {
     color:#43494C;
 }
 
+/* pops up when you click on a post avatar */
+.profile-overview {
+    background-color:#222;
+    border:1px solid #333;
+}
 
 
 
