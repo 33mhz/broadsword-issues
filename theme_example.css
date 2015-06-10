@@ -170,30 +170,3 @@ button:hover {
     background-color:#222;
     border:1px solid #333;
 }
-
-
-/* SVG icons:
-
- Reply button:      re
- Repost button:     rp
- Star button:       Un/Star
- Delete button:     x
- Search button:     search
- TreeView:          
- Write new post:    
-
-*/
-.icon-Star,.icon-Unstar,.icon-rp-box,.icon-search-circle {
-    stroke:#00669E;
-}
-.icon-Unstar,.icon-rp-arrow,.icon-re,.icon-x-circle,.icon-search {
-    fill:#00669E;
-}
-
-/* use background color here */
-.icon-x-line {
-    stroke:#222;
-}
-.icon-rp-cutout {
-    fill:#222;
-}
