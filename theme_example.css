@@ -166,7 +166,7 @@ button:hover {
 }
 
 /* Emoji dock */
-.dock {
+.dock,#autoUserLookup {
     background-color:#222;
     border:1px solid #333;
 }
