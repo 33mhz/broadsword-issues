@@ -39,6 +39,11 @@ body,.client a:link,.client a:visited {
     box-shadow: 0px 5px 5px -5px #0097D8;
 }
 
+/* post replied to, shown in thread... */
+.post-focus {
+    background-color:#350F38 !important;
+}
+
 /* small box, color-coded based on what thread the post is in */
 .post-thread-box {
     box-shadow: 1px 1px 1px 0px #222;
