@@ -76,7 +76,7 @@ body,.client a:link,.client a:visited {
 
 /* highlight avatars of users with fewer than 100 posts or an account less than 60 days old */
 /* also highlights auto-suggest selections */
-.new-user-avatar,#autoUserLookup li:first  {
+.new-user-avatar,#autoUserLookup li:first-child {
     border:1px solid #00A3E4;
 }
 
