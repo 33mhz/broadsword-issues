@@ -1,8 +1,6 @@
 # Broadsword
 
-## Note: This has not been updated to reflect that App.net has been shut down, and this is now a pnut.io app.
-
-Broadsword is a multi-column website (known-working in Firefox and Chrome) and a Firefox browser add-on, to view your feed and get desktop notifications from App.net. It has thread view, hashtags, user view, filtered Global, your stream and mentions, Patter rooms, Netstomp events, private messages, and Broadcasts, with desktop notifications.
+Broadsword is a multi-column website (known-working in Firefox and webkit) to view your feed and get desktop notifications from [Pnut](https://pnut.io). It has thread view, hashtags, user view, filtered Global, your stream and mentions, Patter rooms, private messages, and more, with notifications.
 
 
 ## Bugs and Features
@@ -17,9 +15,9 @@ You are welcome to submit custom themes to be included with Broadsword. [theme_e
 
 ## Get It
 
-Go to https://broadsword.io to add the Firefox Service, or https://broadsword.io/go to use it as a web page.
+Go to https://broadsword.io.
 
 
-# App.net
+# Pnut
 
-App.net is an unusually conversational, international and heavily tech-focused little social network with [cookies](http://appdotnetwiki.net/w/index.php?title=Cookie_Club), [dance parties](http://mndp.tv/), and [free accounts](https://join.app.net/) (and paid accounts!).
+Pnut is an unusually conversational, international and heavily tech-focused little social network with [cookies](https://wiki.pnut.io/PCA), [dance parties](http://mndp.tv/), and [free accounts](https://pnut.io/join) (and paid accounts!).
